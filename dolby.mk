@@ -1,5 +1,6 @@
 # dolby.mk path
-LOCAL_PATH := hardware/dolby
+# !!! all this file to include into build process !!!
+LOCAL_PATH := $(call my-dir)
 DOLBY_PATH := $(LOCAL_PATH)/dolby_manager
 
 # Add dolby path to soong namespaces
