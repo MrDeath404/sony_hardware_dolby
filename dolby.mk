@@ -1,5 +1,5 @@
 # dolby.mk path
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := hardware/dolby
 
 # Add dolby path to soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
