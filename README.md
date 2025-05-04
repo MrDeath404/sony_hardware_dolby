@@ -1,1 +1,1 @@
-# sony_hardware_dolby
+Here you can files that were used to make this system addon: (Magisk Module Dolby Sony V5)[https://github.com/reiryuki/Dolby-Atmos-Sony-Xperia-5-V-Magisk-Module?tab=MIT-1-ov-file] by (reiryuki)[https://github.com/reiryuki]
