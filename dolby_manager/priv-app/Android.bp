@@ -1,0 +1,13 @@
+android_app_import {
+    name: "DolbySound",
+    apk: "DolbySound/DolbySound.apk",
+    privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+    name: "daxService",
+    apk: "daxService/daxService.apk",
+    privileged: true,
+    presigned: true,
+}
