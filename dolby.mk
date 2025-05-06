@@ -1,6 +1,6 @@
 # dolby.mk path
 # !!! all this file to include into build process !!!
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := hardware/dolby
 DOLBY_PATH := $(LOCAL_PATH)/dolby_manager
 
 # Add dolby path to soong namespaces
@@ -18,10 +18,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	daxService \
 	DolbySound
-
-# Custom dolby sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += \
-	$(LOCAL_PATH)/vendor/selinux
 
 # Dolby configs
 PRODUCT_COPY_FILES += \
